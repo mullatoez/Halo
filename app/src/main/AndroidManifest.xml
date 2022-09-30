@@ -15,14 +15,14 @@
         android:theme="@style/Theme.Halo"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
+            android:name=".ui.screens.LoginActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name=".ui.screens.RegisterActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
